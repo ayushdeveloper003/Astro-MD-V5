@@ -14,9 +14,9 @@
     "description": "Alive message for bot",
      "required" :false
     },
-   "THUMB_IMAGE": {
+   "THUMB_IMAGE": {https://ibb.co/V96H8Tq}
     "description": "THUMBNAIL for bot.",
-     "value": "https://raw.githubusercontent.com/vihangayt0/server-/main/Astroboy.jpg"
+     "value": "https://ibb.co/V96H8Tq"
     },
     "ANTI_BAD_WORD": {fuck}
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
