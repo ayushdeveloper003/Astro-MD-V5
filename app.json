@@ -6,11 +6,11 @@
   "success_url": "/",
   "stack": "container",
 "env": {
-  "OWNER_NAME": {
+  "OWNER_NAME": {918602306506}
   "description": "Name of Bot Owner",
       "value": "Your Name."
   },
-  "ALIVE_MESSAGE": {
+  "ALIVE_MESSAGE": {.alive}
     "description": "Alive message for bot",
      "required" :false
     },
@@ -18,43 +18,43 @@
     "description": "THUMBNAIL for bot.",
      "value": "https://raw.githubusercontent.com/vihangayt0/server-/main/Astroboy.jpg"
     },
-    "ANTI_BAD_WORD": {
+    "ANTI_BAD_WORD": {fuck}
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
      "required" :false
     },
-   "ANTILINK_VALUES": {
+   "ANTILINK_VALUES": {chat.whatsapp.com}
     "description": "Put words for antilink",
      "value": "chat.whatsapp.com,fb.com,instagram.com",
      "required" :false
     },
-     "ANTILINK_ACTION": {
+     "ANTILINK_ACTION": {remove}
     "description": "Put action for antilink",
      "value": "remove",
      "required" :false
     },
-  "LEVEL_UP_MESSAGE": {
+  "LEVEL_UP_MESSAGE": {true}
     "description": "Fill the value true if you want bot send Level up message in chat.",
      "required" :false,
      "value": "true"
     },
-      "READ_MESSAGE": {
+      "READ_MESSAGE": {false}
     "description": "Fill the value true if you want bot to read all messages.",
      "required" :false,
      "value": "true"
     },
-   "DISABLE_PM": {
+   "DISABLE_PM": {false}
     "description": "Disable bot in pm",
      "required" :false
     },
-      "PREFIX": {
+      "PREFIX": {.}
   "description": "Enter your desired prefix for bot.",
       "value": "."
   },
-  "OWNER_NUMBER": {
+  "OWNER_NUMBER": {918602306506}
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "919628516236"
+       "value": "918602306506"
   },
-   "SESSION_ID": {
+   "SESSION_ID": {TEdIY1pzdzI=
     "description": "Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/session "
   },
     "OPENAI_API_KEY": {
@@ -67,25 +67,25 @@
        "value": "  *Hi,* @user \n*Welcome in* @gname \n*Member count* : @count th",
        "required" :false
   },
-  "MONGODB_URI": {
+  "MONGODB_URI": {mongodb+srv://ayushdeveloper001:<password>@cluster0.wu1zsit.mongodb.net/?retryWrites=true&w=majority}
     "description": "A secret String for Mongodb Connection.(Required)"
   },
-    "THEME": {
+    "THEME": {Nezuko}
     "description": "Put here language name SL or EN",
      "value": "EN"
   },
-    "WORKTYPE": {
+    "WORKTYPE": {public}
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
          "value": "public"
   },
-      "AUTO_REACTION": {
+      "AUTO_REACTION": {false}
     "description": "Reacts emoji to all commands.",
      "value": "false",
      "required": false 
   },
-  "PACK_INFO": {
+  "PACK_INFO": {Ayush;Developer}
     "description": "Put packname;authorname.",
-     "value": "SamPandey001;Astro",
+     "value": "Ayush;Developer",
      "required": false 
   }
 },
